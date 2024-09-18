@@ -9,7 +9,7 @@ function install_lamp() {
     check_error
 
     echo "Instalando Apache, PHP, Python3, pip e MariaDB..."
-    sudo dnf install -y httpd php python3 pip mariadb mariadb-server
+    sudo dnf install -y httpd php python3 pip mariadb mariadb-server java
     check_error
 }
 
