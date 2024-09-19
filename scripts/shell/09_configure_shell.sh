@@ -20,6 +20,7 @@ function configure_shell() {
     check_error
 
     # Instalar Powerlevel10k
+    # Para reconfigurar: p10k configure
     echo "Instalando o tema Powerlevel10k..."
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     check_error
