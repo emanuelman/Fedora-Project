@@ -9,7 +9,7 @@ function install_terminal_utilities() {
 
     # Instalar utilitários básicos
     echo "Instalando utilitários básicos..."
-    sudo dnf install -y tmux ranger htop acpi git pulseaudio-utils alsa-utils xclip nmap openssh-server openssh samba youtube-dl tilix wmctrl wget curl
+    sudo dnf install -y tmux ranger htop acpi git pulseaudio-utils alsa-utils xclip nmap openssh-server openssh samba youtube-dl tilix wmctrl wget curl eog
     check_error
 
     # Instalar Visual Studio Code
